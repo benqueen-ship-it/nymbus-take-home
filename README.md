@@ -1,5 +1,8 @@
 # AuraPOS — Merchant Payments Portal
 
+**🔗 Live demo: [nymbus-take-home.vercel.app](https://nymbus-take-home.vercel.app/)**
+**📦 Repository: [github.com/benqueen-ship-it/nymbus-take-home](https://github.com/benqueen-ship-it/nymbus-take-home)**
+
 A polished, front-end prototype of a single-merchant SMB payments portal. AuraPOS gives a small business a modern way to take card payments through a **virtual terminal**, collect payments asynchronously through **branded invoices** and a **hosted payment page**, and manage the operational back office — customers, transactions, refunds, and processing statements.
 
 > **Prototype notice:** This is a UI/UX prototype. There is no real payment processing, authentication, or backend. All data is seeded locally and persisted to `localStorage`. No real card data is ever stored or transmitted.
@@ -116,8 +119,8 @@ The integration **degrades gracefully**: with no API key configured, the address
 ### Setup
 ```bash
 # 1. Clone the repo
-git clone <your-repo-url>
-cd aurapos
+git clone https://github.com/benqueen-ship-it/nymbus-take-home.git
+cd nymbus-take-home
 
 # 2. Install dependencies
 npm install
