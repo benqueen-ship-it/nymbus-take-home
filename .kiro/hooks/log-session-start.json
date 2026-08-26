@@ -1,0 +1,14 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Log Session Start",
+      "trigger": "SessionStart",
+      "description": "Logs session start events to track when new development sessions begin",
+      "action": {
+        "type": "command",
+        "command": "powershell -ExecutionPolicy Bypass -File .kiro/scripts/log-session.ps1"
+      }
+    }
+  ]
+}

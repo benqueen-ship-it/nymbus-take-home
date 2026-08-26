@@ -1,0 +1,14 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Capture AI Collaboration Context",
+      "trigger": "UserPromptSubmit",
+      "description": "Logs every user prompt and session context to .kiro/ai-collaboration/session-log.md for reviewers to see the development story",
+      "action": {
+        "type": "command",
+        "command": "powershell -ExecutionPolicy Bypass -File .kiro/scripts/log-session.ps1"
+      }
+    }
+  ]
+}
